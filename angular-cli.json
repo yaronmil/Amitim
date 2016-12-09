@@ -1,0 +1,31 @@
+{
+  "project": {
+    "version": "1.0.0-beta.14",
+    "name": "material2-start"
+  },
+  "apps": [
+    {
+      "root": "src",
+      "outDir": "dist",
+      "assets": "assets",
+      "index": "index.html",
+      "main": "main.ts",
+      "tsconfig": "tsconfig.json",
+      "mobile": false,
+      "styles": [
+        "main.less",
+        "themes.scss"
+      ],
+      "scripts": [],
+      "environments": {
+        "source": "environments/environment.ts",
+        "dev": "environments/environment.ts",
+        "prod": "environments/environment.prod.ts"
+      }
+    }
+  ],
+  "defaults": {
+    "styleExt": "less",
+    "prefixInterfaces": false
+  }
+}
